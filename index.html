@@ -3,15 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <img src="./img/itachi-cooking.gif" height="480" width="600">
+        <h1 class="main-title">Odin Recipes</h1>
 
-        <ul>
-            <li><a href="./recipes/brigadeiro.html">Brigadeiro</a></li>
-            <li><a href="./recipes/cheese-bread.html">Cheese Bread</a></li>
-            <li><a href="./recipes/caipirinha.html">Caipirinha</a></li>
-        </ul>    
+        <div class="conteiner">
+            <ul>
+                <li class="conteiner-recipe">
+                    <a href="./recipes/brigadeiro.html">
+                        <img class="conteiner-recipe_image" src="./img/brigadeiro.jpg" alt="brigadeiro">
+                        <p class="conteiner-recipe_name">Brigadeiro</p>
+                    </a>
+                </li>
+                <li class="conteiner-recipe">
+                    <a href="./recipes/cheese-bread.html">
+                        <img class="conteiner-recipe_image" src="./img/cheese-bread.jpg" alt="cheese bread">
+                        <p class="conteiner-recipe_name">Cheese Bread</p>
+                    </a>
+                </li>
+                <li class="conteiner-recipe">
+                    <a href="./recipes/caipirinha.html">
+                        <img class="conteiner-recipe_image" src="./img/caipirinha.png" alt="caipirinha">
+                        <p class="conteiner-recipe_name">Caipirinha</p>
+                    </a>
+                </li>
+            </ul>   
+        </div>
     </body>
 </html>

@@ -1,0 +1,26 @@
+.main-title {
+    background-color: red;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.conteiner {
+    margin: 2em 15%;
+}
+
+.conteiner-recipe {
+    padding: 1em 0;
+    list-style: none;
+    text-align: center;
+}
+
+.conteiner-recipe_image {
+    width: 35%;
+    height: auto;
+}
+
+.conteiner-recipe_name {
+    width: 35%;
+    margin: 0 auto;
+}

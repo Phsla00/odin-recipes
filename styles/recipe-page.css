@@ -1,0 +1,29 @@
+.main-title {
+    background-color: red;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.conteiner, .home {
+    margin: 2em 15%;
+}
+
+.conteiner-recipe_image {
+    width: 50%;
+    height: auto;
+}
+
+h2, li {
+    margin: 0.5em 0;
+}
+
+li {
+    margin-left: 1em;
+}
+
+.home {
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
